@@ -1,7 +1,7 @@
 {
-  "name": "ray-themes",
-  "displayName": "Ray.so Theme",
-  "description": "Color Themes based on Ray.so code themes",
+  "name": "raycast-themes",
+  "displayName": "Raycast Theme",
+  "description": "Color Themes based on Raycast(ray.so) code themes",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.91.0"
@@ -12,7 +12,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "Vercel Dark Theme",
+        "label": "Raycast Vercel Dark Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/Vercel_Dark-color-theme.json"
       }
