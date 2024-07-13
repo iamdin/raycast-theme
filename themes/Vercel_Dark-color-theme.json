@@ -1,0 +1,191 @@
+{
+  "name": "Ray.so Theme",
+  "colors": {
+    // editor
+    "editor.background": "#000",
+    "editor.foreground": "#EDEDEDFF",
+    // sideBar
+    "sideBar.background": "#000",
+    "sideBarTitle.foreground": "#EDEDEDFF",
+    // activityBar
+    "activityBarBadge.background": "#007acc",
+    "activityBar.background": "#000"
+  },
+  "tokenColors": [
+    {
+      "scope": [
+        "keyword.operator.accessor",
+        "meta.group.braces.round.function.arguments",
+        "meta.template.expression",
+        "markup.fenced_code meta.embedded.block"
+      ],
+      "settings": {
+        "foreground": "#EDEDEDFF"
+      }
+    },
+    {
+      "scope": "emphasis",
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["strong", "markup.heading.markdown", "markup.bold.markdown"],
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["markup.italic.markdown"],
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "meta.link.inline.markdown",
+      "settings": {
+        "fontStyle": "underline",
+        "foreground": "#00CA50FF"
+      }
+    },
+    {
+      "scope": [
+        "string",
+        "markup.fenced_code",
+        "markup.inline",
+        "string.quoted.docstring.multi.python"
+      ],
+      "settings": {
+        "foreground": "#00CA50FF"
+      }
+    },
+    {
+      "scope": ["comment", "string.quoted.docstring.multi"],
+      "settings": {
+        "foreground": "#A1A1A1FF"
+      }
+    },
+    {
+      "scope": [
+        "constant.numeric",
+        "constant.language",
+        "constant.other.placeholder",
+        "constant.character.format.placeholder",
+        "variable.language.this",
+        "variable.other.object",
+        "variable.other.class",
+        "variable.other.constant",
+        "meta.property-name",
+        "meta.property-value",
+        "support"
+      ],
+      "settings": {
+        "foreground": "#47A8FFFF"
+      }
+    },
+    {
+      "scope": [
+        "keyword",
+        "storage.modifier",
+        "storage.type",
+        "storage.control.clojure",
+        "entity.name.function.clojure",
+        "entity.name.tag.yaml",
+        "support.function.node",
+        "support.type.property-name.json",
+        "punctuation.separator.key-value",
+        "punctuation.definition.template-expression"
+      ],
+      "settings": {
+        "foreground": "#FF4D8DFF"
+      }
+    },
+    {
+      "scope": "variable.parameter.function",
+      "settings": {
+        "foreground": "#FF9300FF"
+      }
+    },
+    {
+      "scope": [
+        "support.function",
+        "entity.name.type",
+        "entity.other.inherited-class",
+        "meta.function-call",
+        "meta.instance.constructor",
+        "entity.other.attribute-name",
+        "entity.name.function",
+        "constant.keyword.clojure"
+      ],
+      "settings": {
+        "foreground": "#C472FBFF"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.tag",
+        "string.quoted",
+        "string.regexp",
+        "string.interpolated",
+        "string.template",
+        "string.unquoted.plain.out.yaml",
+        "keyword.other.template"
+      ],
+      "settings": {
+        "foreground": "#00CA50FF"
+      }
+    },
+    {
+      "scope": [
+        "punctuation.definition.arguments",
+        "punctuation.definition.dict",
+        "punctuation.separator",
+        "meta.function-call.arguments"
+      ],
+      "settings": {
+        "foreground": "#EDEDEDFF"
+      }
+    },
+    {
+      // [Custom] Markdown links
+      "scope": [
+        "markup.underline.link",
+        "punctuation.definition.metadata.markdown"
+      ],
+      "settings": {
+        "foreground": "#00CA50FF"
+      }
+    },
+    {
+      // [Custom] Markdown list
+      "scope": ["beginning.punctuation.definition.list.markdown"],
+      "settings": {
+        "foreground": "#00CA50FF"
+      }
+    },
+    {
+      // [Custom] Markdown punctuation definition brackets
+      "scope": [
+        "punctuation.definition.string.begin.markdown",
+        "punctuation.definition.string.end.markdown",
+        "string.other.link.title.markdown",
+        "string.other.link.description.markdown"
+      ],
+      "settings": {
+        "foreground": "#FF4D8DFF"
+      }
+    },
+    {
+      "scope": [
+        "constant.numeric.decimal",
+        "constant.language.boolean",
+        "meta.var.exp.ts"
+      ],
+      "settings": { "foreground": "#ffffff" }
+    },
+    {
+      "scope": ["support.variable.property"],
+      "settings": { "foreground": "#47A8FFFF" }
+    }
+  ]
+}

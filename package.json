@@ -1,0 +1,21 @@
+{
+  "name": "ray-themes",
+  "displayName": "Ray.so Theme",
+  "description": "Color Themes based on Ray.so code themes",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.91.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Vercel Dark Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Vercel_Dark-color-theme.json"
+      }
+    ]
+  }
+}
