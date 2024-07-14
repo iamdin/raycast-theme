@@ -1,8 +1,12 @@
 {
-  "name": "raycast-themes",
-  "displayName": "Raycast Theme",
-  "description": "Color Themes based on Raycast(ray.so) code themes",
+  "name": "vscode-theme-ray-so",
+  "displayName": "Ray.so Theme",
+  "description": "Color Themes inspired by ray.so code themes",
   "version": "0.0.1",
+  "publisher": "iamdin",
+  "repository": {
+    "url": "https://github.com/iamdin/vscode-theme-rayso"
+  },
   "engines": {
     "vscode": "^1.91.0"
   },
@@ -12,10 +16,16 @@
   "contributes": {
     "themes": [
       {
-        "label": "Raycast Vercel Dark Theme",
+        "label": "Vercel Dark Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/Vercel_Dark-color-theme.json"
       }
     ]
+  },
+  "scripts": {
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^2.30.0"
   }
 }

@@ -9,7 +9,13 @@
     "sideBarTitle.foreground": "#EDEDEDFF",
     // activityBar
     "activityBarBadge.background": "#007acc",
-    "activityBar.background": "#000"
+    "activityBar.background": "#000",
+    // statusBar
+    "statusBar.background": "#000",
+    // tab
+    "tab.activeForeground": "#EDEDEDFF",
+    "tab.inactiveBackground": "#000"
+    //
   },
   "tokenColors": [
     {
